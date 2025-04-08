@@ -23,6 +23,49 @@
         <div id="pt" class="content active">
             <h1 class="mt-4">Análise de Gastos com Viagens Públicas</h1>
             <p>Este projeto apresenta uma análise exploratória de dados públicos relacionados aos gastos com viagens realizadas por órgãos do governo federal. Os gráficos abaixo mostram os principais resultados.</p>
+<h2 class="mt-5">🧳 Análise de Diárias e Passagens</h2>
+<p>Este projeto realiza uma análise exploratória de dados públicos relacionados a diárias e passagens, com foco em identificar padrões de gastos, destinos mais frequentes, evolução temporal e outros insights.</p>
+
+<h3>📊 Objetivos</h3>
+<ul>
+    <li>Identificar servidores e órgãos que mais gastam</li>
+    <li>Mapear os destinos mais comuns</li>
+    <li>Avaliar a evolução dos gastos ao longo do tempo</li>
+    <li>Observar duração média das viagens</li>
+    <li>Gerar visualizações de fácil entendimento</li>
+</ul>
+
+<h3>⚠️ Limitação dos Dados</h3>
+<p>Os dados analisados cobrem um período limitado. Por isso, as análises se concentram em métricas de distribuição (ranking, médias e somatórios) em vez de tendências de longo prazo. Mesmo com essa limitação, o projeto demonstra domínio das etapas de análise de dados com base em dados reais.</p>
+
+<h3>📁 Estrutura</h3>
+<ul>
+    <li><code>viagens.csv</code>: Base de dados original</li>
+    <li><code>analise_viagens.ipynb</code>: Código com análises e gráficos</li>
+    <li><code>requirements.txt</code>: Bibliotecas necessárias</li>
+    <li><code>README.md</code>: Documentação do projeto</li>
+</ul>
+
+<h3>🚀 Como Rodar</h3>
+<ol>
+    <li>Clone o repositório</li>
+    <li>Instale as dependências:
+        <pre><code>pip install -r requirements.txt</code></pre>
+    </li>
+    <li>Abra o notebook com Jupyter:
+        <pre><code>jupyter notebook analise_viagens.ipynb</code></pre>
+    </li>
+</ol>
+
+<h3>💻 Como executar localmente</h3>
+<pre><code>git clone https://github.com/seu-usuario/analise-gastos-viagens-publicas.git
+cd analise-gastos-viagens-publicas
+python -m venv .venv
+source .venv/bin/activate  # Linux/macOS
+.venv\Scripts\activate   # Windows
+pip install -r requirements.txt</code></pre>
+<p>Execute o notebook: abra o arquivo <code>notebooks/analise_viagens.ipynb</code> em um Jupyter Notebook para explorar a análise.</p>
+
 
             <h2 class="mt-5">Top 10 Órgãos por Gastos</h2>
             <img src="images/top10_orgaos.png" alt="Top 10 Órgãos por Gastos">
